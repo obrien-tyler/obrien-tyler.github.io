@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,6 +25,19 @@
             text-align: center;
             padding: 50px 20px;
         }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            font-size: 24px;
+            color: #000000;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -36,6 +50,11 @@
         <h2>Hello everyone, my name is Tyler O'Brien.</h2>
         <p>I am a second year computational engineering major at The University of Texas at Austin.</p>
     </section>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/obrien-tyler/" target="_blank">LinkedIn</a>
+        <!-- Add more social media links here -->
+    </div>
 </body>
 
 </html>
