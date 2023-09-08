@@ -10,16 +10,13 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('fun_pattern.jpg'); /* Add the path to your fun background here */
         }
 
         .cover {
-            background-image: url('cover_image.jpg'); /* Add the path to your cover image here */
-            background-size: cover;
-            background-position: center;
-            color: #ffffff;
             text-align: center;
             padding: 100px 20px;
+            color: #ffffff;
         }
 
         .summary {
